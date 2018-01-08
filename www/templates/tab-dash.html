@@ -1,0 +1,22 @@
+<ion-view view-title="考勤" class="checkon-view">
+  <ion-content class="checkon-index bg-fff">
+    <section class="checkon-index-title">
+      <span class="head">当前时间</span>
+      <span class="time">{{time| date : 'yyyy年MM月dd日 HH:mm'}} </span>
+    </section>
+    <section>
+      <div id="container" class="rn-container"></div>
+      <img class="rn-c-img" ng-click="reLocation()" src="img/relocation.png" />
+    </section>
+    <section class="checkon-index-body cicon icon-checkon-bg">
+      <div class="round-o">
+        <div class="round-i">
+          <p class="t-time">考勤</p>
+          <p class="time">{{time| date : 'HH:mm:ss'}}</p>
+        </div>
+      </div>
+      <p class="count">今日你已考勤
+        <span> 1 </span>次</p>
+    </section>
+  </ion-content>
+</ion-view>
