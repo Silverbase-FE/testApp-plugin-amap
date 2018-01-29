@@ -1,0 +1,260 @@
+
+  .checkon-index {
+    margin-bottom: 50px;
+    background-color: #fff;
+    .checkon-index-map {
+      height: 240px;
+      width: 100%;
+      .AMapArea {
+        height: 100%;
+        width: 100%;
+        float: left;
+      }
+    }
+    .checkon-index-body {
+      height: 235px;
+      width: 100%;
+      float: left;
+      background: url('../assets/imgs/checkon-bg.png') no-repeat left top;
+      background-size: 100% 100%;
+      background-color: #fff;
+      padding-top: 30px;
+      margin-bottom: 10px;
+      .round-o {
+        height: 140px;
+        width: 140px;
+        border-radius: 70px;
+        padding: 10px;
+        margin: auto;
+        background: url('../assets/imgs/checken-round.png') no-repeat left top;
+        background-size: 100% 100%;
+        .round-i {
+          height: 120px;
+          width: 120px;
+          padding-top: 30px;
+          border-radius: 60px;
+          margin: auto;
+          font-size: 18px;
+          color: #fff;
+          text-align: center;
+          .time {
+            font-size: 22px;
+            margin-top: 10px;
+          }
+        }
+      }
+      .count {
+        margin-top: 20px;
+        text-align: center;
+        color: #999;
+        font-size: 14px;
+        span {
+          color: #fd9b32;
+        }
+      }
+    }
+  }
+  .checkon-index-title {
+    width: 100%;
+    background: #fff;
+    height: 50px;
+    line-height: 50px;
+    font-size: 15px;
+    .head {
+      height: 50px;
+      width: 100px;
+      color: #999;
+      float: left;
+      padding-left: 20px;
+    }
+    .t-time {
+      opacity: 0.8;
+    }
+    .time {
+      height: 50px;
+      color: #333;
+      float: left;
+    }
+    &.add {
+      font-size: 15px;
+      border-bottom: 1px solid #eee;
+      .head {
+        padding-left: 15px;
+      }
+    }
+  }
+  .checkon-button {
+    width: 100%;
+    height: 50px;
+    margin-top: 50px;
+    float: left;
+    .button {
+      line-height: 40px;
+      width: 90%;
+      height: 40px;
+      line-height: 40px;
+      margin-left: 5%;
+      background: #548cdf;
+      color: #fff;
+    }
+  }
+  .checkon-list {
+    margin-bottom: 50px;
+    background: #fff;
+    .checkon-list-item {
+      display: table;
+      width: 100%;
+      float: left;
+      .checkon-list-title {
+        display: table-cell;
+        width: 50px;
+        position: relative;
+        .icon-checkon-dot {
+          position: absolute;
+          right: -10px;
+          top: 1px;
+          padding: 9px;
+        }
+        font-size: 14px;
+        color: #999;
+      }
+      .checkon-list-body {
+        display: table-cell;
+        border-left: 1px solid #eee;
+        padding-left: 20px;
+        .checkon-list-imgs {
+          li {
+            width: 33.33%;
+            float: left;
+            padding: 15px 0 20px 0;
+            overflow: hidden;
+            img {
+              height: 80px;
+              width: 100%;
+            }
+            img:first-child {
+              padding-right: 5%;
+            }
+            img:nth-child(1) {
+              padding-right: 5%;
+            }
+          }
+        }
+        p {
+          display: -webkit-box;
+          -webkit-box-orient: vertical;
+          -webkit-line-clamp: 1;
+          overflow: hidden;
+        }
+        p:first-child {
+          font-size: 13px;
+        }
+      }
+    }
+  }
+  .checkon-list-button {
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    box-shadow: 0 -5px 10px rgba(8, 1, 3, 0.1);
+    .button {
+      width: 50%;
+      height: 50px;
+      line-height: 50px;
+      float: left;
+      text-align: center;
+      font-size: 18px;
+      border-radius: 0px;
+      border: none;
+      outline: none;
+      &.go {
+        color: #555;
+        background: #fff;
+      }
+      &.list {
+        color: #fff;
+        background: #548cdf;
+      }
+    }
+  }
+  .rn-container {
+    position: relative;
+    width: 100%;
+    height: 230px;
+    border-top: 1px solid #e1e1e1;
+    border-bottom: 1px solid #e1e1e1;
+    .amap-icon {
+      img {
+        width: 48px;
+        height: 48px;
+        background: transparent;
+      }
+    }
+  }
+  .rn-c-img {
+    width: 32px;
+    height: 32px;
+    z-index: 222;
+    position: absolute;
+    top: 65px;
+    right: 15px;
+    background-color: #fff;
+    padding: 4px;
+    border: 1px solid #e0e0df;
+    border-radius: 4px;
+    background: transparent;
+    background-color: #fff;
+  }
+  .px-button-fixed {
+    position: absolute;
+    bottom: 0;
+    padding: 15px 20px;
+    width: 100%;
+    box-shadow: 0 -5px 10px rgba(8, 1, 3, 0.1);
+    background-color: #fff;
+    button {
+      background-color: #548cdf;
+      width: 100%;
+      border: none;
+      outline: none;
+      color: #fff;
+      font-size: 18px;
+      border-radius: 4px;
+      height: 44px;
+      line-height: 44px;
+      text-align: center;
+    }
+  }
+  .px-content-fixed {
+    margin-bottom: 64px;
+  }
+  .px-content-fixed2 {
+    margin-bottom: 74px;
+  }
+  .px-ccc-active {
+    .active {
+      background-color: #eee;
+    }
+  }
+
+
+.px-content {
+  background-color: #f5f5f5;
+
+  section {
+    padding: 15px;
+    background-color: #fff;
+    margin-top: 20px;
+
+    button{
+      color: #333;
+    }
+
+    p{
+      margin: 0;
+    }
+  }
+  
+  
+}
