@@ -1,0 +1,142 @@
+[
+    {
+        "merged": "/Users/yangnengkang/workSpace/code/app/myNewProject/platforms/android/app/build/intermediates/res/merged/debug/drawable-port-hdpi_location_marker.png.flat",
+        "source": "/Users/yangnengkang/workSpace/code/app/myNewProject/platforms/android/app/src/main/res/drawable-port-hdpi/location_marker.png"
+    },
+    {
+        "merged": "/Users/yangnengkang/workSpace/code/app/myNewProject/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi_location_marker.png.flat",
+        "source": "/Users/yangnengkang/workSpace/code/app/myNewProject/platforms/android/app/src/main/res/drawable-xhdpi/location_marker.png"
+    },
+    {
+        "merged": "/Users/yangnengkang/workSpace/code/app/myNewProject/platforms/android/app/build/intermediates/res/merged/debug/drawable-port-xhdpi_screen.png.flat",
+        "source": "/Users/yangnengkang/workSpace/code/app/myNewProject/platforms/android/app/src/main/res/drawable-port-xhdpi/screen.png"
+    },
+    {
+        "merged": "/Users/yangnengkang/workSpace/code/app/myNewProject/platforms/android/app/build/intermediates/res/merged/debug/drawable-port-xxxhdpi_screen.png.flat",
+        "source": "/Users/yangnengkang/workSpace/code/app/myNewProject/platforms/android/app/src/main/res/drawable-port-xxxhdpi/screen.png"
+    },
+    {
+        "merged": "/Users/yangnengkang/workSpace/code/app/myNewProject/platforms/android/app/build/intermediates/res/merged/debug/drawable-port-mdpi_location_marker.png.flat",
+        "source": "/Users/yangnengkang/workSpace/code/app/myNewProject/platforms/android/app/src/main/res/drawable-port-mdpi/location_marker.png"
+    },
+    {
+        "merged": "/Users/yangnengkang/workSpace/code/app/myNewProject/platforms/android/app/build/intermediates/res/merged/debug/drawable-port-ldpi_location_marker.png.flat",
+        "source": "/Users/yangnengkang/workSpace/code/app/myNewProject/platforms/android/app/src/main/res/drawable-port-ldpi/location_marker.png"
+    },
+    {
+        "merged": "/Users/yangnengkang/workSpace/code/app/myNewProject/platforms/android/app/build/intermediates/res/merged/debug/drawable-mdpi_location_marker.png.flat",
+        "source": "/Users/yangnengkang/workSpace/code/app/myNewProject/platforms/android/app/src/main/res/drawable-mdpi/location_marker.png"
+    },
+    {
+        "merged": "/Users/yangnengkang/workSpace/code/app/myNewProject/platforms/android/app/build/intermediates/res/merged/debug/drawable-hdpi_location_marker.png.flat",
+        "source": "/Users/yangnengkang/workSpace/code/app/myNewProject/platforms/android/app/src/main/res/drawable-hdpi/location_marker.png"
+    },
+    {
+        "merged": "/Users/yangnengkang/workSpace/code/app/myNewProject/platforms/android/app/build/intermediates/res/merged/debug/layout_trace_activity.xml.flat",
+        "source": "/Users/yangnengkang/workSpace/code/app/myNewProject/platforms/android/app/src/main/res/layout/trace_activity.xml"
+    },
+    {
+        "merged": "/Users/yangnengkang/workSpace/code/app/myNewProject/platforms/android/app/build/intermediates/res/merged/debug/drawable-land-ldpi_screen.png.flat",
+        "source": "/Users/yangnengkang/workSpace/code/app/myNewProject/platforms/android/app/src/main/res/drawable-land-ldpi/screen.png"
+    },
+    {
+        "merged": "/Users/yangnengkang/workSpace/code/app/myNewProject/platforms/android/app/build/intermediates/res/merged/debug/drawable-land-xhdpi_screen.png.flat",
+        "source": "/Users/yangnengkang/workSpace/code/app/myNewProject/platforms/android/app/src/main/res/drawable-land-xhdpi/screen.png"
+    },
+    {
+        "merged": "/Users/yangnengkang/workSpace/code/app/myNewProject/platforms/android/app/build/intermediates/res/merged/debug/drawable-port-xxhdpi_screen.png.flat",
+        "source": "/Users/yangnengkang/workSpace/code/app/myNewProject/platforms/android/app/src/main/res/drawable-port-xxhdpi/screen.png"
+    },
+    {
+        "merged": "/Users/yangnengkang/workSpace/code/app/myNewProject/platforms/android/app/build/intermediates/res/merged/debug/drawable-land-xhdpi_location_marker.png.flat",
+        "source": "/Users/yangnengkang/workSpace/code/app/myNewProject/platforms/android/app/src/main/res/drawable-land-xhdpi/location_marker.png"
+    },
+    {
+        "merged": "/Users/yangnengkang/workSpace/code/app/myNewProject/platforms/android/app/build/intermediates/res/merged/debug/mipmap-hdpi_icon.png.flat",
+        "source": "/Users/yangnengkang/workSpace/code/app/myNewProject/platforms/android/app/src/main/res/mipmap-hdpi/icon.png"
+    },
+    {
+        "merged": "/Users/yangnengkang/workSpace/code/app/myNewProject/platforms/android/app/build/intermediates/res/merged/debug/drawable-land-xxxhdpi_screen.png.flat",
+        "source": "/Users/yangnengkang/workSpace/code/app/myNewProject/platforms/android/app/src/main/res/drawable-land-xxxhdpi/screen.png"
+    },
+    {
+        "merged": "/Users/yangnengkang/workSpace/code/app/myNewProject/platforms/android/app/build/intermediates/res/merged/debug/mipmap-xhdpi_icon.png.flat",
+        "source": "/Users/yangnengkang/workSpace/code/app/myNewProject/platforms/android/app/src/main/res/mipmap-xhdpi/icon.png"
+    },
+    {
+        "merged": "/Users/yangnengkang/workSpace/code/app/myNewProject/platforms/android/app/build/intermediates/res/merged/debug/layout_map_activity.xml.flat",
+        "source": "/Users/yangnengkang/workSpace/code/app/myNewProject/platforms/android/app/src/main/res/layout/map_activity.xml"
+    },
+    {
+        "merged": "/Users/yangnengkang/workSpace/code/app/myNewProject/platforms/android/app/build/intermediates/res/merged/debug/mipmap_comm_button_arrow.png.flat",
+        "source": "/Users/yangnengkang/workSpace/code/app/myNewProject/platforms/android/app/src/main/res/mipmap/comm_button_arrow.png"
+    },
+    {
+        "merged": "/Users/yangnengkang/workSpace/code/app/myNewProject/platforms/android/app/build/intermediates/res/merged/debug/mipmap-mdpi_icon.png.flat",
+        "source": "/Users/yangnengkang/workSpace/code/app/myNewProject/platforms/android/app/src/main/res/mipmap-mdpi/icon.png"
+    },
+    {
+        "merged": "/Users/yangnengkang/workSpace/code/app/myNewProject/platforms/android/app/build/intermediates/res/merged/debug/drawable-land-ldpi_location_marker.png.flat",
+        "source": "/Users/yangnengkang/workSpace/code/app/myNewProject/platforms/android/app/src/main/res/drawable-land-ldpi/location_marker.png"
+    },
+    {
+        "merged": "/Users/yangnengkang/workSpace/code/app/myNewProject/platforms/android/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_icon.png.flat",
+        "source": "/Users/yangnengkang/workSpace/code/app/myNewProject/platforms/android/app/src/main/res/mipmap-xxxhdpi/icon.png"
+    },
+    {
+        "merged": "/Users/yangnengkang/workSpace/code/app/myNewProject/platforms/android/app/build/intermediates/res/merged/debug/xml_config.xml.flat",
+        "source": "/Users/yangnengkang/workSpace/code/app/myNewProject/platforms/android/app/src/main/res/xml/config.xml"
+    },
+    {
+        "merged": "/Users/yangnengkang/workSpace/code/app/myNewProject/platforms/android/app/build/intermediates/res/merged/debug/drawable-port-ldpi_screen.png.flat",
+        "source": "/Users/yangnengkang/workSpace/code/app/myNewProject/platforms/android/app/src/main/res/drawable-port-ldpi/screen.png"
+    },
+    {
+        "merged": "/Users/yangnengkang/workSpace/code/app/myNewProject/platforms/android/app/build/intermediates/res/merged/debug/drawable-land-xxhdpi_screen.png.flat",
+        "source": "/Users/yangnengkang/workSpace/code/app/myNewProject/platforms/android/app/src/main/res/drawable-land-xxhdpi/screen.png"
+    },
+    {
+        "merged": "/Users/yangnengkang/workSpace/code/app/myNewProject/platforms/android/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_icon.png.flat",
+        "source": "/Users/yangnengkang/workSpace/code/app/myNewProject/platforms/android/app/src/main/res/mipmap-xxhdpi/icon.png"
+    },
+    {
+        "merged": "/Users/yangnengkang/workSpace/code/app/myNewProject/platforms/android/app/build/intermediates/res/merged/debug/drawable-land-hdpi_location_marker.png.flat",
+        "source": "/Users/yangnengkang/workSpace/code/app/myNewProject/platforms/android/app/src/main/res/drawable-land-hdpi/location_marker.png"
+    },
+    {
+        "merged": "/Users/yangnengkang/workSpace/code/app/myNewProject/platforms/android/app/build/intermediates/res/merged/debug/drawable-land-hdpi_screen.png.flat",
+        "source": "/Users/yangnengkang/workSpace/code/app/myNewProject/platforms/android/app/src/main/res/drawable-land-hdpi/screen.png"
+    },
+    {
+        "merged": "/Users/yangnengkang/workSpace/code/app/myNewProject/platforms/android/app/build/intermediates/res/merged/debug/drawable-land-mdpi_location_marker.png.flat",
+        "source": "/Users/yangnengkang/workSpace/code/app/myNewProject/platforms/android/app/src/main/res/drawable-land-mdpi/location_marker.png"
+    },
+    {
+        "merged": "/Users/yangnengkang/workSpace/code/app/myNewProject/platforms/android/app/build/intermediates/res/merged/debug/drawable-land-mdpi_screen.png.flat",
+        "source": "/Users/yangnengkang/workSpace/code/app/myNewProject/platforms/android/app/src/main/res/drawable-land-mdpi/screen.png"
+    },
+    {
+        "merged": "/Users/yangnengkang/workSpace/code/app/myNewProject/platforms/android/app/build/intermediates/res/merged/debug/mipmap-ldpi_icon.png.flat",
+        "source": "/Users/yangnengkang/workSpace/code/app/myNewProject/platforms/android/app/src/main/res/mipmap-ldpi/icon.png"
+    },
+    {
+        "merged": "/Users/yangnengkang/workSpace/code/app/myNewProject/platforms/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi_location_marker.png.flat",
+        "source": "/Users/yangnengkang/workSpace/code/app/myNewProject/platforms/android/app/src/main/res/drawable-xxhdpi/location_marker.png"
+    },
+    {
+        "merged": "/Users/yangnengkang/workSpace/code/app/myNewProject/platforms/android/app/build/intermediates/res/merged/debug/drawable-port-mdpi_screen.png.flat",
+        "source": "/Users/yangnengkang/workSpace/code/app/myNewProject/platforms/android/app/src/main/res/drawable-port-mdpi/screen.png"
+    },
+    {
+        "merged": "/Users/yangnengkang/workSpace/code/app/myNewProject/platforms/android/app/build/intermediates/res/merged/debug/drawable-ldpi_location_marker.png.flat",
+        "source": "/Users/yangnengkang/workSpace/code/app/myNewProject/platforms/android/app/src/main/res/drawable-ldpi/location_marker.png"
+    },
+    {
+        "merged": "/Users/yangnengkang/workSpace/code/app/myNewProject/platforms/android/app/build/intermediates/res/merged/debug/drawable-port-hdpi_screen.png.flat",
+        "source": "/Users/yangnengkang/workSpace/code/app/myNewProject/platforms/android/app/src/main/res/drawable-port-hdpi/screen.png"
+    },
+    {
+        "merged": "/Users/yangnengkang/workSpace/code/app/myNewProject/platforms/android/app/build/intermediates/res/merged/debug/drawable-port-xhdpi_location_marker.png.flat",
+        "source": "/Users/yangnengkang/workSpace/code/app/myNewProject/platforms/android/app/src/main/res/drawable-port-xhdpi/location_marker.png"
+    }
+]

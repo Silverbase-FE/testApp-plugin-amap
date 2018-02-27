@@ -1,0 +1,37 @@
+{
+  "name": "cordova-plugin-amap",
+  "version": "1.0.1",
+  "description": "Amap Maps native SDK for Android and iOS",
+  "cordova": {
+    "id": "cordova-plugin-amap",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Silverbase-FE/cordova-plugin-amap.git"
+  },
+  "keywords": [
+    "amap",
+    "maps",
+    "geo",
+    "amap maps",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=6.2.0"
+    }
+  ],
+  "author": "Silverbase-FE",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/Silverbase-FE/cordova-plugin-amap/issues"
+  },
+  "homepage": "https://github.com/Silverbase-FE/cordova-plugin-amap"
+}

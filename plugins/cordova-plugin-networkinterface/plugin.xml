@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    id="cordova-plugin-networkinterface"
+    version="1.2.0">
+
+    <name>NetworkInterface</name>
+    <description>
+    	This plugin allows your application to retrieve the local wifi address.
+	</description>
+
+    <license>MIT</license>
+
+    <keywords>local,ip,wifi,network</keywords>
+
+	<engines>
+		<engine name="cordova" version="&gt;=3.1.0" />
+	</engines>
+
+    <js-module src="www/networkinterface.js" name="networkinterface">
+    	<clobbers target="window.networkinterface" />
+    </js-module>
+
+    <!-- ios -->
+    <platform name="ios">
+        <config-file target="config.xml" parent="/*">
+            <feature name="networkinterface">
+                <param name="ios-package" value="CDVNetworkInterface" onload="true" />
+            </feature>
+        </config-file>
+
+        <header-file src="src/ios/CDVNetworkInterface.h" />
+        <source-file src="src/ios/CDVNetworkInterface.m" />
+    </platform>
+
+    <platform name="android">
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="networkinterface">
+                <param name="android-package" value="com.albahra.plugin.networkinterface.networkinterface"/>
+            </feature>
+        </config-file>
+
+        <config-file target="AndroidManifest.xml" parent="/*">
+            <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+        </config-file>
+
+        <source-file src="src/android/networkinterface.java" target-dir="src/com/albahra/plugin/networkinterface" />
+    </platform>
+
+
+    <platform name="windows">
+        <config-file target="config.xml" parent="/*">
+            <feature name="networkinterface">
+                <param name="windows-package" value="networkinterface"/>
+            </feature>
+        </config-file>
+
+        <js-module src="src/windows/networkinterfaceProxy.js" name="networkinterfaceProxy">
+            <runs />
+        </js-module>
+    </platform>
+
+
+    <platform name="wp8">
+        <config-file target="config.xml" parent="/*">
+            <feature name="networkinterface">
+                <param name="wp-package" value="networkinterface"/>
+            </feature>
+        </config-file>
+
+        <source-file src="src/wp8/networkinterface.cs" />
+    </platform>
+
+    <platform name="blackberry10">
+        <source-file src="src/blackberry10/index.js" target-dir="networkinterface" />
+        <config-file target="www/config.xml" parent="/widget">
+            <feature name="com.albahra.plugin.networkinterface" value="com.albahra.plugin.networkinterface" />
+        </config-file>
+    </platform>
+
+    <platform name="browser">
+        <config-file target="config.xml" parent="/*">
+            <feature name="networkinterface">
+                <param name="browser-package" value="networkinterface" />
+            </feature>
+        </config-file>
+
+        <js-module src="src/browser/networkinterfaceProxy.js" name="networkinterfaceProxy">
+            <runs />
+        </js-module>
+    </platform>
+</plugin>

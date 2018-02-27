@@ -1,0 +1,4 @@
+#Mon Feb 26 10:38:02 CST 2018
+base.0=/Users/yangnengkang/workSpace/code/app/myNewProject/platforms/android/app/build/intermediates/transforms/dexMerger/debug/62
+renamed.0=classes.dex
+file.0=/Users/yangnengkang/workSpace/code/app/myNewProject/platforms/android/app/build/intermediates/transforms/dexMerger/debug/62/classes.dex

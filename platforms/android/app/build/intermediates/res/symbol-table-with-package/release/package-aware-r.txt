@@ -1,0 +1,15 @@
+com.amap.plugin
+int drawable location_marker 0x7f010000
+int drawable screen 0x7f010001
+int id map 0x7f020000
+int id title_back 0x7f020001
+int id title_name 0x7f020002
+int id title_rl 0x7f020003
+int layout map_activity 0x7f030000
+int layout trace_activity 0x7f030001
+int mipmap comm_button_arrow 0x7f040000
+int mipmap icon 0x7f040001
+int string activity_name 0x7f050000
+int string app_name 0x7f050001
+int string launcher_name 0x7f050002
+int xml config 0x7f060000
