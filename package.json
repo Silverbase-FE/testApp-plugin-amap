@@ -51,12 +51,18 @@
       "cordova-plugin-device": {},
       "cordova-plugin-splashscreen": {},
       "cordova-plugin-ionic-webview": {},
-      "cordova-plugin-networkinterface": {}
+      "cordova-plugin-networkinterface": {},
+      "cordova-plugin-amap": {}
     },
     "platforms": [
-      "ios",
-      "android"
+      "android",
+      "ios"
     ]
   },
-  "cordovaPlugins": []
+  "cordovaPlugins": [
+    {
+      "id": "cordova-plugin-amap\" version=\"2.0.0",
+      "locator": "/Users/yangnengkang/workSpace/code/app/cordova-plugin-amap"
+    }
+  ]
 }
