@@ -168,7 +168,8 @@ android {
     }
 
     lintOptions {
-      abortOnError false;
+      checkReleaseBuilds false
+      abortOnError false
     }
 
     compileSdkVersion cdvCompileSdkVersion
@@ -228,29 +229,17 @@ android {
 
     if (cdvReleaseSigningPropertiesFile) {
         signingConfigs {
-            //调试版的keystore
-            debug {
-                storeFile = ("/Users/yangnengkang/workSpace/code/app/keystyore/debug.keystore")
-                storePassword = "12345678"
-                keyAlias = "cordova-plugin-amap"
-                keyPassword = "12345678"
-            }
-
             release {
                 // These must be set or Gradle will complain (even if they are overridden).
-                storeFile = "/Users/yangnengkang/workSpace/code/app/keystyore/release.keystore"
-                keyPassword = "12345678" // And these must be set to non-empty in order to have the signing step added to the task graph.
-                keyAlias = "cordova-plugin-amap"
-                storePassword = "12345678"
+                keyAlias = ""
+                keyPassword = "__unset" // And these must be set to non-empty in order to have the signing step added to the task graph.
+                storeFile = null
+                storePassword = "__unset"
             }
         }
         buildTypes {
             release {
                 signingConfig signingConfigs.release
-            }
-
-            debug {
-                signingConfig signingConfigs.debug
             }
         }
         addSigningProps(cdvReleaseSigningPropertiesFile, signingConfigs.release)
@@ -272,9 +261,7 @@ dependencies {
     // SUB-PROJECT DEPENDENCIES START
     implementation(project(path: ":CordovaLib"))
     // SUB-PROJECT DEPENDENCIES END
-    implementation files('src/main/libs/AMap_Location_V3.7.0_20171218.jar')
-    implementation files('src/main/libs/android-support-v4.jar')
-    implementation files('src/main/libs/Android_Map3D_SDK_V5.7.0_20171229.jar')
+    implementation files('src/main/libs/AMap3DMap_6.3.0_AMapLocation_4.1.0_20180619.jar')
 }
 
 def promptForReleaseKeyPassword() {

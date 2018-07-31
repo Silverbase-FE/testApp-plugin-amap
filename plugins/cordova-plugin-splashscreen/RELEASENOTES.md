@@ -20,6 +20,27 @@
 -->
 # Release Notes
 
+### 5.0.2 (Jan 24, 2018)
+* [CB-13750](https://issues.apache.org/jira/browse/CB-13750) Add build-tools-26.0.2 to travis
+* [CB-13737](https://issues.apache.org/jira/browse/CB-13737) (iOS): fix Splash screen images for iPhone X
+
+### 5.0.1 (Dec 27, 2017)
+* [CB-13709](https://issues.apache.org/jira/browse/CB-13709) Fix to allow 5.0.0 version install (#144)
+
+### 5.0.0 (Dec 15, 2017)
+* [CB-13677](https://issues.apache.org/jira/browse/CB-13677) Remove deprecated platforms
+
+### 4.1.0 (Nov 06, 2017)
+* [CB-13473](https://issues.apache.org/jira/browse/CB-13473) (CI) Removed **Browser** builds from AppVeyor
+* [CB-12011](https://issues.apache.org/jira/browse/CB-12011) (android) added the possibility to change the spinner color on **Android 5.0**+ apps
+* [CB-13028](https://issues.apache.org/jira/browse/CB-13028) (CI) **Browser** builds on Travis and AppVeyor
+* [CB-13094](https://issues.apache.org/jira/browse/CB-13094) (android) Don't show splash when activity being finished
+* [CB-11487](https://issues.apache.org/jira/browse/CB-11487) (browser) Documented `AutoHideSplashScreen` for **Browser**
+* [CB-11488](https://issues.apache.org/jira/browse/CB-11488) (browser) The `hide()` call became non re-entrant after the addition of fade out. This fixes the issue.
+* [CB-11487](https://issues.apache.org/jira/browse/CB-11487) (browser) The standard `AutoHideSplashScreen` `config.xml` property is now supported by the **Browser** platform.
+* [CB-11486](https://issues.apache.org/jira/browse/CB-11486) (browser) `splashScreenDelay` now feed through `parseInt` to ensure it is an integer by the time it's value is passed in to `setTimeout()` in `hide()`.
+* [CB-12847](https://issues.apache.org/jira/browse/CB-12847) added `bugs` entry to `package.json`.
+
 ### 4.0.3 (Apr 27, 2017)
 * [CB-12622](https://issues.apache.org/jira/browse/CB-12622) Added **Android 6.0** build badge to `README`
 * [CB-12685](https://issues.apache.org/jira/browse/CB-12685) added `package.json` to tests folder

@@ -1,47 +1,43 @@
 {
-  "_from": "cordova-plugin-splashscreen@~4.0.1",
-  "_id": "cordova-plugin-splashscreen@4.0.3",
+  "_from": "cordova-plugin-splashscreen@5.0.2",
+  "_id": "cordova-plugin-splashscreen@5.0.2",
   "_inBundle": false,
-  "_integrity": "sha1-dzzRNjwfO6y5kBZj6eN5PdPgoZ0=",
+  "_integrity": "sha1-dH509W4gHNWFvGLRS8oZ9oZ/8e0=",
   "_location": "/cordova-plugin-splashscreen",
   "_phantomChildren": {},
   "_requested": {
-    "type": "range",
+    "type": "version",
     "registry": true,
-    "raw": "cordova-plugin-splashscreen@~4.0.1",
+    "raw": "cordova-plugin-splashscreen@5.0.2",
     "name": "cordova-plugin-splashscreen",
     "escapedName": "cordova-plugin-splashscreen",
-    "rawSpec": "~4.0.1",
+    "rawSpec": "5.0.2",
     "saveSpec": null,
-    "fetchSpec": "~4.0.1"
+    "fetchSpec": "5.0.2"
   },
   "_requiredBy": [
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/cordova-plugin-splashscreen/-/cordova-plugin-splashscreen-4.0.3.tgz",
-  "_shasum": "773cd1363c1f3bacb9901663e9e3793dd3e0a19d",
-  "_spec": "cordova-plugin-splashscreen@~4.0.1",
-  "_where": "/Users/yangnengkang/workSpace/code/app/myNewProject",
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-splashscreen/-/cordova-plugin-splashscreen-5.0.2.tgz",
+  "_shasum": "747e74f56e201cd585bc62d14bca19f6867ff1ed",
+  "_spec": "cordova-plugin-splashscreen@5.0.2",
+  "_where": "/Users/yangnengkang/workSpace/code/app/myApp",
   "author": {
     "name": "Apache Software Foundation"
   },
   "bugs": {
-    "url": "https://github.com/apache/cordova-plugin-splashscreen/issues"
+    "url": "https://issues.apache.org/jira/browse/CB"
   },
   "bundleDependencies": false,
   "cordova": {
     "id": "cordova-plugin-splashscreen",
     "platforms": [
       "android",
-      "amazon-fireos",
       "ubuntu",
       "ios",
-      "blackberry10",
-      "wp8",
-      "windows8",
       "windows",
-      "tizen"
+      "browser"
     ]
   },
   "deprecated": false,
@@ -58,7 +54,7 @@
         "cordova-android": ">=3.6.0",
         "cordova-windows": ">=4.4.0"
       },
-      "5.0.0": {
+      "6.0.0": {
         "cordova": ">100"
       }
     }
@@ -69,14 +65,8 @@
     "splashscreen",
     "ecosystem:cordova",
     "cordova-android",
-    "cordova-amazon-fireos",
-    "cordova-ubuntu",
     "cordova-ios",
-    "cordova-blackberry10",
-    "cordova-wp8",
-    "cordova-windows8",
-    "cordova-windows",
-    "cordova-tizen"
+    "cordova-windows"
   ],
   "license": "Apache-2.0",
   "name": "cordova-plugin-splashscreen",
@@ -89,5 +79,5 @@
     "test": "npm run jshint"
   },
   "types": "./types/index.d.ts",
-  "version": "4.0.3"
+  "version": "5.0.2"
 }

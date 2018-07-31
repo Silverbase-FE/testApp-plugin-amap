@@ -14,7 +14,7 @@
         <activity android:label="客户地图" android:name="com.yxt.cordova.MapActivity" />
         <activity android:label="我的轨迹" android:name="com.yxt.cordova.TraceActivity" />
     </application>
-    <uses-sdk android:minSdkVersion="16" android:targetSdkVersion="26" />
+    <uses-sdk android:minSdkVersion="19" android:targetSdkVersion="26" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />

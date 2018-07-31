@@ -17,97 +17,47 @@
 #         under the License.
 -->
 
-Ionic's Webview
-======
+<!-- TODO: remove beta in README.md and CONTRIBUTING.md -->
 
-This plugin is an extension of the [Apache Cordova WKWebView plugin](https://github.com/apache/cordova-plugin-wkwebview-engine). It includes enhancements to resolve some of the issues surrounding XHR requests, along with some DOM exception issues.
+# Ionic Web View
 
-This plugin only supports iOS 9 and above and will fall back to UIWebView on iOS 8.
+The Web View plugin for Cordova that is specialized for Ionic apps.
 
-The WKWebView plugin is only used by iOS, so ensure the `cordova-ios` platform is installed. Additionly, the `cordova-ios` platform version must be `4.0` or greater.
+This is for `cordova-plugin-ionic-webview` @ `2.x`, which uses the latest and greatest features and may not work with all apps. See [Requirements](#requirements) and [Migrating to 2.x](#migrating-to-2x).
 
-Installation Instructions
--------------------
+:book: **Documentation**: [https://beta.ionicframework.com/docs/building/webview][ionic-webview-docs]
 
-Ensure the latest Cordova CLI is installed:  (Sudo may be required)
+:mega: **Support/Questions?** Please see our [Support Page][ionic-support] for general support questions. The issues on GitHub should be reserved for bug reports and feature requests.
 
-```
-npm install cordova -g
-```
+:sparkling_heart: **Want to contribute?** Please see [CONTRIBUTING.md](https://github.com/ionic-team/cordova-plugin-ionic-webview/blob/master/CONTRIBUTING.md).
 
-Ensure the `ios` platform has been added:
+### Requirements
 
-```
-ionic cordova platform ls
-```
+* **iOS**: iOS 10+ and `cordova-ios` 4+
+* **Android**: Android 5.0+ and `cordova-android` 6.4+
 
-If the iOS platform is not listed, run the following command:
+### Migrating to 2.x
 
-```
-ionic cordova platform add ios
-```
+1. Remove and re-add the Web View plugin:
 
-If the iOS platform is installed but the version is < `4.x`, run the following commands:
+    ```
+    cordova plugin rm cordova-plugin-ionic-webview
+    cordova plugin add cordova-plugin-ionic-webview@latest
+    ```
 
-```
-ionic cordova platform update ios
-ionic cordova plugin save           # creates backup of existing plugins
-rm -rf ./plugins            # delete plugins directory
-ionic cordova prepare               # re-install plugins compatible with cordova-ios 4.x
-```
+1. Apps are now served from HTTP on Android.
 
-Install the WKWebViewPlugin:
+    * The origin for requests from the Web View is `http://localhost:8080`.
 
-```
-ionic cordova plugin add cordova-plugin-ionic-webview --save
-```
+1. Replace any usages of `window.Ionic.normalizeURL()` with `window.Ionic.WebView.convertFileSrc()`.
 
-**Note:**
+    * For Ionic Angular projects, there is an [Ionic Native wrapper](https://beta.ionicframework.com/docs/native/ionic-webview):
 
-If you already had [apache/cordova-plugin-wkwebview-engine](https://github.com/apache/cordova-plugin-wkwebview-engine) install make sure that is removed before using this version.
+        ```
+        npm install @ionic-native/ionic-webview@beta
+        ```
 
-```
-ionic cordova plugin rm cordova-plugin-wkwebview-engine
-```
-
-
-Build the platform:
-
-```
-ionic cordova prepare
-```
-
-Test the app on an iOS 9 or 10 device:
-
-```
-ionic cordova run ios
-```
-
-
-Required Permissions
--------------------
-WKWebView may not fully launch (the deviceready event may not fire) unless if the following is included in config.xml:
-#### config.xml
-```
-<allow-navigation href="http://localhost:8080/*"/>
-<feature name="CDVWKWebViewEngine">
-  <param name="ios-package" value="CDVWKWebViewEngine" />
-</feature>
-
-<preference name="CordovaWebViewEngine" value="CDVWKWebViewEngine" />
-```
-
-Application Transport Security (ATS) in iOS 9
------------
-
-The next released version of the [cordova-cli 5.4.0](https://www.npmjs.com/package/cordova) will support automatic conversion of the [&lt;access&gt;](http://cordova.apache.org/docs/en/edge/guide/appdev/whitelist/index.html) tags in config.xml to Application Transport Security [ATS](https://developer.apple.com/library/prerelease/ios/documentation/General/Reference/InfoPlistKeyReference/Articles/CocoaKeys.html#//apple_ref/doc/uid/TP40009251-SW33) directives. Upgrade to the version 5.4.0 to use this new functionality.
-
-Apple Issues
--------
-
-The `AllowInlineMediaPlayback` preference will not work because of this [Apple bug](http://openradar.appspot.com/radar?id=6673091526656000). This bug [has been fixed](https://issues.apache.org/jira/browse/CB-11452) in [iOS 10](https://twitter.com/shazron/status/745546355796389889).
-
-Limitations
---------
-
-There are several [known issues](https://issues.apache.org/jira/issues/?jql=project%20%3D%20CB%20AND%20labels%20%3D%20wkwebview-known-issues) with the official Cordova WKWebView plugin. The Ionic team thinks we have resolved several of the major issues. Please [let us know](https://github.com/driftyco/cordova-plugin-wkwebview-engine/issues) if something isn't working as expected.
+[ionic-homepage]: https://ionicframework.com
+[ionic-docs]: https://ionicframework.com/docs
+[ionic-webview-docs]: https://beta.ionicframework.com/docs/building/webview
+[ionic-support]: https://ionicframework.com/support

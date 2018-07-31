@@ -1,16 +1,8 @@
 {
-  "ionic-plugin-keyboard": {
-    "source": {
-      "type": "registry",
-      "id": "ionic-plugin-keyboard@~2.2.1"
-    },
-    "is_top_level": true,
-    "variables": {}
-  },
   "cordova-plugin-whitelist": {
     "source": {
       "type": "registry",
-      "id": "cordova-plugin-whitelist@1.3.1"
+      "id": "cordova-plugin-whitelist@1.3.3"
     },
     "is_top_level": true,
     "variables": {}
@@ -18,7 +10,7 @@
   "cordova-plugin-device": {
     "source": {
       "type": "registry",
-      "id": "cordova-plugin-device@1.1.4"
+      "id": "cordova-plugin-device@2.0.2"
     },
     "is_top_level": true,
     "variables": {}
@@ -26,7 +18,7 @@
   "cordova-plugin-splashscreen": {
     "source": {
       "type": "registry",
-      "id": "cordova-plugin-splashscreen@~4.0.1"
+      "id": "cordova-plugin-splashscreen@5.0.2"
     },
     "is_top_level": true,
     "variables": {}
@@ -34,15 +26,15 @@
   "cordova-plugin-ionic-webview": {
     "source": {
       "type": "registry",
-      "id": "cordova-plugin-ionic-webview@^1.1.11"
+      "id": "cordova-plugin-ionic-webview@^2.0.0"
     },
     "is_top_level": true,
     "variables": {}
   },
-  "cordova-plugin-networkinterface": {
+  "cordova-plugin-ionic-keyboard": {
     "source": {
       "type": "registry",
-      "id": "cordova-plugin-networkinterface"
+      "id": "cordova-plugin-ionic-keyboard@^2.0.5"
     },
     "is_top_level": true,
     "variables": {}
@@ -50,9 +42,12 @@
   "cordova-plugin-amap": {
     "source": {
       "type": "local",
-      "path": "/Users/yangnengkang/workSpace/code/app/myNewProject/node_modules/cordova-plugin-amap"
+      "path": "/Users/yangnengkang/workSpace/code/app/myApp/node_modules/cordova-plugin-amap"
     },
     "is_top_level": true,
-    "variables": {}
+    "variables": {
+      "API_KEY_FOR_ANDROID": "53d64e65189400132756cbe7f472a5dc",
+      "API_KEY_FOR_IOS": "310649baa827cf5d88b5b4ecb36d6db6"
+    }
   }
 }
